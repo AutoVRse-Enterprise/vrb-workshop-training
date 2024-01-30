@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a29a8c892d9fcb47a26bab3466c94d1, type: 3}
+  m_Name: RoomManagerConfig_vrb-workshop-training
+  m_EditorClassIdentifier: 
+  _mainMenuScene: Assets/Training/Projects/vrb-workshop-training/Scenes/Menu_vrb-workshop-training.unity
+  _defaultPlayerPrefab:
+    RawGuidValue: 0002449797f4cff49a6a68d53c6af6b4
+  privateRoom:
+    _id: PR1
+    _name: Private Room
+    _scene: Assets/Training/Projects/vrb-workshop-training/Scenes/Lobby_Red_vrb-workshop-training.unity
+  SinglePlayerLobbyRoom:
+    _id: SPL1
+    _name: Private Room
+    _scene: Assets/Training/Projects/vrb-workshop-training/Scenes/Lobby_Red_vrb-workshop-training.unity
+  liveRooms:
+  - _id: LR1
+    _name: Red Live Room
+    _scene: Assets/Training/Projects/vrb-workshop-training/Scenes/Lobby_Red_vrb-workshop-training.unity
+  - _id: LR2
+    _name: Blue Live Room
+    _scene: Assets/Training/Projects/vrb-workshop-training/Scenes/Lobby_Blue_vrb-workshop-training.unity
+  - _id: LR3
+    _name: Green Live Room
+    _scene: Assets/Training/Projects/vrb-workshop-training/Scenes/Lobby_Green_vrb-workshop-training.unity
+  - _id: LR4
+    _name: Yellow Live Room
+    _scene: Assets/Training/Projects/vrb-workshop-training/Scenes/Lobby_Yellow_vrb-workshop-training.unity
+  experiences:
+  - _id: 
+    _name: Module-1
+    _scene: 
+    DevScene: Assets/Core/NoCodeTesting/Scenes/WAH-DevScene.unity
+    ArtScene: Assets/Core/NoCodeTesting/Scenes/WAH-ArtScene.unity
+    _playerPrefab:
+      RawGuidValue: 00000000000000000000000000000000
+    _simPrefab: {fileID: 0}
+    _playerSpawnPosition: {x: 0, y: 0, z: 0}
+    _playerSpawnRotaion: {x: 0, y: 0, z: 0}
+    _activeLanguageSelected: 0
